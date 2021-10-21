@@ -1,9 +1,11 @@
 import React from "react";
+import "./SummaryCard.css";
+import illustrationHero from "../images/illustration-hero.svg";
 
 const SummaryCard = () => {
   return (
-    <div>
-      <div>Header</div>
+    <div className='summary-card flex-col'>
+      <img src={illustrationHero} alt='illustration-hero' />
       <div>
         <div>Order Summary</div>
         <div>Order Description</div>
@@ -16,9 +18,9 @@ const SummaryCard = () => {
         </div>
         <div>Change Plan Link</div>
       </div>
-      <div>
-        <div>Proceed to Payment</div>
-        <div>Cancel Order</div>
+      <div className='buttons flex-col'>
+        <button className='button primary'>Proceed to Payment</button>
+        <button className='button'>Cancel Order</button>
       </div>
     </div>
   );

@@ -1,0 +1,38 @@
+.summary-card {
+  border-radius: 10px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  padding: 20px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: #000;
+}
+
+.button.primary {
+  background: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+}
+
+.button.primary:hover {
+  background: hsl(225, 100%, 94%);
+}
