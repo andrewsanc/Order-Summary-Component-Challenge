@@ -1,7 +1,12 @@
 import SummaryCard from "./SummaryCard";
+import "./App.css";
 
 const App = () => {
-  return <SummaryCard />;
+  return (
+    <div className='App'>
+      <SummaryCard />
+    </div>
+  );
 };
 
 export default App;
