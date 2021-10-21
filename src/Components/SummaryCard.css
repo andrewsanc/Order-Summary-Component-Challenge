@@ -1,19 +1,9 @@
 .summary-card {
+  border: 1px solid hsl(225, 100%, 98%);
   border-radius: 10px;
 }
 
-.flex-row {
-  display: flex;
-  align-items: center;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
-
 .buttons {
-  padding: 20px;
 }
 
 .button {

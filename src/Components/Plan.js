@@ -1,15 +1,16 @@
 import React from "react";
 import "./Plan.css";
+import planIcon from "../images/icon-music.svg";
 
-const Plan = () => {
+const Plan = ({ title, price }) => {
   return (
-    <div>
-      <div>Plan Selection Icon</div>
+    <div className='plan flex-row'>
+      <img src={planIcon} alt='icon-music' />
       <div>
-        <div>Plan Selection Title</div>
-        <div>Plan Selection Price</div>
+        <div>{title}</div>
+        <div>{price}</div>
       </div>
-      <div>Change Plan Link</div>
+      <a href='#'>Change</a>
     </div>
   );
 };

@@ -8,13 +8,15 @@ const SummaryCard = () => {
     <div className='summary-card flex-col'>
       <img src={illustrationHero} alt='illustration-hero' />
       <div>
-        <div>Order Summary</div>
-        <div>Order Description</div>
-      </div>
-      <Plan />
-      <div className='buttons flex-col'>
-        <button className='button primary'>Proceed to Payment</button>
-        <button className='button'>Cancel Order</button>
+        <div>
+          <div>Order Summary</div>
+          <div>Order Description</div>
+        </div>
+        <Plan title='Annual Plan' price='$59.99/year' />
+        <div className='buttons flex-col'>
+          <button className='button primary'>Proceed to Payment</button>
+          <button className='button'>Cancel Order</button>
+        </div>
       </div>
     </div>
   );
