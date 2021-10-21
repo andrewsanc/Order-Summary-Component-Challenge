@@ -8,7 +8,7 @@ const Plan = ({ title, price }) => {
       <img src={planIcon} alt='icon-music' />
       <div>
         <div>{title}</div>
-        <div>{price}</div>
+        <p>{price}</p>
       </div>
       <a href='#'>Change</a>
     </div>

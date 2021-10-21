@@ -1,4 +1,14 @@
 .plan {
+  padding: 20px 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
   justify-content: space-between;
   background: hsl(225, 100%, 98%);
+}
+
+p {
+  margin: 2px 0px;
+  color: #808080;
+  font-weight: 500;
+  font-size: 16px;
 }

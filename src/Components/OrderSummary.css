@@ -1,3 +1,16 @@
 .order-summary {
   text-align: center;
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+
+h4 {
+  font-weight: 900;
+  margin: 10px 0px;
+}
+
+p {
+  color: #808080;
+  font-weight: 500;
+  font-size: 16px;
 }
