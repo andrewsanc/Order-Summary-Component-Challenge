@@ -42,5 +42,5 @@
 }
 
 .button.primary:hover {
-  background: hsl(225, 100%, 94%);
+  opacity: 75%;
 }

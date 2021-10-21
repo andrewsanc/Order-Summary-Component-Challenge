@@ -2,13 +2,31 @@
   padding: 20px 15px;
   margin: 10px 0px;
   border-radius: 10px;
-  justify-content: space-between;
+  align-items: center;
   background: hsl(225, 100%, 98%);
 }
 
-p {
+.plan div {
+  margin: 0px 10px;
+}
+
+.plan h4 {
+  font-weight: 900;
+  margin: 2px 0px !important;
+}
+
+.plan p {
   margin: 2px 0px;
   color: #808080;
   font-weight: 500;
   font-size: 16px;
+}
+
+.plan a {
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.plan a:hover {
+  color: hsl(245, 75%, 52%);
 }

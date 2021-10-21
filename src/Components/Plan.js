@@ -7,7 +7,7 @@ const Plan = ({ title, price }) => {
     <div className='plan flex-row'>
       <img src={planIcon} alt='icon-music' />
       <div>
-        <div>{title}</div>
+        <h4>{title}</h4>
         <p>{price}</p>
       </div>
       <a href='#'>Change</a>
