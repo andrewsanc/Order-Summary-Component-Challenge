@@ -3,6 +3,11 @@
   border-radius: 10px;
 }
 
+.summary-card-content {
+  width: 80%;
+  margin: auto;
+}
+
 .buttons {
 }
 
